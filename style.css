@@ -1,0 +1,176 @@
+.navbar-nav a {
+    color: whitesmoke;
+}
+
+.navbar {
+    background: linear-gradient(to right, rgba(128, 0, 128, 0.921), #de8995);
+}
+
+.myimg {
+    height: 410px;
+    width: 100%;
+    box-shadow: 0 0 15px purple;
+}
+
+.hh {
+    color: whitesmoke;
+}
+
+.name {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: purple;
+    text-shadow: 2px 2px 0px plum;
+    font-size: 45px;
+}
+
+.imglap {
+    height: 300px;
+    width: 90%;
+    box-shadow: 20px 20px 0 purple;
+}
+
+.resume {
+    box-shadow: 20px 20px 0 purple;
+    border: 2px solid purple;
+}
+
+#about h5 {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.cvbtn {
+    background: linear-gradient(to right, rgba(102, 51, 153, 0.983), rgba(128, 0, 128, 0.719));
+    padding-left: 30px;
+    padding-right: 30px;
+    height: 40px;
+    outline: none;
+    border: none;
+}
+
+.cvbtn:hover {
+    box-shadow: 0 0 15px purple;
+}
+
+.image-container {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    /* Set image width */
+    height: 250px;
+    /* Set image height */
+}
+
+.image-container img {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.image-container .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(128, 0, 128, 0.661);
+    /* Background color with transparency */
+    opacity: 0;
+    /* Initially hidden */
+    transition: opacity 0.3s ease;
+    /* Smooth fade-in effect */
+    border-radius: 10px;
+}
+
+.overlay h1 {
+    color: whitesmoke;
+    position: absolute;
+    top: 95px;
+    left: 70px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.image-container:hover .overlay {
+    opacity: 1;
+    /* Show the overlay on hover */
+}
+
+.work {
+    background: linear-gradient(to right, rgba(102, 51, 153, 0.921), rgba(128, 0, 128, 0.719));
+
+    h1 {
+        color: whitesmoke;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    h6 {
+        color: whitesmoke;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+    }
+}
+
+#services {
+    h3 {
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: bold;
+        color: #232946;
+
+    }
+
+    .serv {
+        p {
+            color: #09227c;
+        }
+
+        .card {
+            border: 2px solid purple;
+            box-shadow: 0 0 10px pink;
+        }
+    }
+}
+
+#contact {
+    h2 {
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: bold;
+        color: whitesmoke;
+    }
+
+    .container-fluid1 {
+        background: linear-gradient(to right, rgba(102, 51, 153, 0.808), rgba(128, 0, 128, 0.637));
+    }
+
+    label {
+        font-size: larger;
+    }
+
+    .contactdetails {
+        background-color: rgba(221, 160, 221, 0.432);
+    }
+}
+
+.footer {
+    background: linear-gradient(to right, rgba(102, 51, 153, 0.808), rgba(128, 0, 128, 0.637));
+
+    h5 {
+        color: gold;
+    }
+
+    p {
+        color: whitesmoke;
+    }
+
+    span {
+        color: whitesmoke;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    .anchor:hover {
+        color: gold;
+    }
+
+}
